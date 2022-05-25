@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Wir sind die Zweirad-Spezialisten, die für alle etwas zu bieten haben. Ob Kauf oder Leasing, ob regelmäßige Wartung oder punktuelle Beratung.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fahrrad Rund OHG</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <!--LOGO & NAVIGATION-->
+                <nav>
+                    <div class="logo">
+                        <a href="index.html"><img src="../img/logo_fahrrad_rund_ohg.svg" alt="Logo Fahrrad Rund OHG"></a>
+                    </div>
+                    <ul class="nav-links">
+                        <li class="nav-itm nav-1"><a href="index.html#sale">Verkauf</a></li>
+                        <li class="nav-itm nav-2"><a href="index.html#repair">Werkstatt</a></li>
+                        <li class="nav-itm nav-3"><a href="index.html#leasing">Lastenrad-Leasing</a></li>
+                        <li class="nav-itm nav-4"><a href="index.html#abo">Kinderrad-Abo</a></li>
+                    </ul>
+
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
+            </header>
+
+            <!--SLIDER-->
+            <section class="container">
+              <div class="slides">
+                <div class="slide">
+                  <img class="slide-img" src="../img/slider-sale.jpg" alt="" />
+                  <div class="slide-content">
+                    <img class="slider-icon" src="../img/bike_sale.svg" alt="Piktogramm Verkauf"> 
+                    <h3>Sie wollen ein Fahrrad für alle Tage, stadt- und landtauglich?</h3>
+                    <button class="light" onclick="window.location.href = '#sale'">Zweirad für Einmalige</button>
+                  </div>
+                </div>
+                
+                <div class="slide">
+                  <img class="slide-img" src="../img/slider-repair.jpg" alt="" />
+                    <div class="slide-content">
+                      <img class="slider-icon" src="../img/repair.svg" alt="Piktogramm Werkstatt"> 
+                      <h3>So sind Sie sicher und lange mit Ihrem Drahtesel unterwegs!</h3>
+                      <button class="light" onclick="window.location.href = '#repair'">Damit das Rad rund läuft</button>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                  <img class="slide-img" src="../img/slider-cargo-bike.jpg" alt="" />
+                  <div class="slide-content">
+                    <img class="slider-icon" src="../img/cargo_bike.svg" alt="Piktogramm Lastenrad-Leasing"> 
+                    <h3>Wählen Sie das jeweils passende Lastenrad für Ihren Transport.</h3>
+                    <button class="light" onclick="window.location.href = '#leasing'">Kaufen war gestern, jetzt ist leasen angesagt!</button>
+                  </div>
+                </div>
+                
+                <div class="slide">
+                  <img class="slide-img" src="../img/slider-kids-abo.jpg" alt="" />
+                    <div class="slide-content">
+                      <img class="slider-icon" src="../img/kids_abo.svg" alt="Piktogramm Kinderrad-Abo"> 
+                      <h3>So hat Ihr Kind immer das richtige Rad!</h3>
+                      <button class="light" onclick="window.location.href = '#abo'">Wenn das Fahrrad mitwächst</button>
+                    </div>
+                </div>
+              </div>
+
+              <div class="slide-controls">
+                <button id="prev-btn">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <button id="next-btn">
+                  <i class="fas fa-chevron-right"></i>
+                </button>                
+              </div>
+            </section>
+
+            <!--TEXTBOX INTRODUCTION-->
+            <section class="text-box">
+              <article>
+                  <h1>Flotte Fahrt auf flotten Velos</h1>
+                  <p>Singles, Paare oder Familien, Sportbegeisterte, Umweltbewusste oder Naturliebhaber: Wir sind die Zweirad-Spezialisten, die für alle etwas zu bieten haben. Ob Kauf oder Leasing, ob regelmäßige Wartung oder punktuelle Beratung, sehen Sie sich unser Angebot an oder nehmen Sie Kontakt mit uns auf. Wir sorgen für Mobilität, die Freude macht.
+                  </p>
+              </article>
+            </section>
+
+            <!-- ICON DIVIDER -->
+            <section id="services" class="icon-container">
+              <div class="icon-container-inner">
+                <div class="icon-box">
+                    <img src="../img/bike_sale.svg" alt="Piktogramm Verkauf"> 
+                    <a href="#sale"><h3>Beratung & Verkauf</h3></a>
+                </div>
+
+                <div class="icon-box">
+                    <img src="../img/repair.svg" alt="Piktogramm Werkstatt">
+                    <a href="#repair"><h3>Wartung & Reparatur</h3></a>
+                </div>
+
+                <div class="icon-box">
+                    <img src="../img/cargo_bike.svg" alt="Piktogramm Lastenrad-Leasing">
+                    <a href="#leasing"><h3>Lastenrad-Leasing</h3></a>
+                </div>
+
+                <div class="icon-box">
+                    <img src="../img/kids_abo.svg" alt="Piktogramm Kinderrad-Abo">
+                    <a href="#abo"><h3>Kinderrad-Abo</h3></a>
+                </div>
+              </div>
+          </section>
+
+          <!--CONTENT BOX "VERKAUF"-->
+          <section id="sale" class="flex-container">
+            <img class="left-img" src="../img/sale.jpg" alt="Fahrrad Beratung und Verkauf">
+            
+            <article class="flex-content beige-box">
+                <h4>Zweirad für Einmalige</h4>
+                <p>Sie wollen ein Fahrrad für alle Tage, stadt- und landtauglich? Sie möchten ausprobieren, wie sich Ihr Bewegungsspielraum durch ein E-Rad vergrößert? Sie suchen die sportliche Herausforderung auf zwei Rädern? Informieren Sie sich hier, welche Typen wir im Angebot haben. Und bedenken Sie: Jedes Rad kann auf Ihre ganz individuellen Wünsche angepasst werden. Vereinbaren Sie einfach einen Beratungstermin: 
+                </p>
+                <button class="light">Terminvergabe</button>
+            </article>
+          </section>
+
+          <!--CONTENT BOX "WERKSTATT"-->
+          <section id="repair" class="flex-container">            
+            <article class="flex-content black-box">
+                <h4>Zweirad für Einmalige</h4>
+                <p>Sie wollen ein Fahrrad für alle Tage, stadt- und landtauglich? Sie möchten ausprobieren, wie sich Ihr Bewegungsspielraum durch ein E-Rad vergrößert? Sie suchen die sportliche Herausforderung auf zwei Rädern? Informieren Sie sich hier, welche Typen wir im Angebot haben. Und bedenken Sie: Jedes Rad kann auf Ihre ganz individuellen Wünsche angepasst werden. Vereinbaren Sie einfach einen Beratungstermin: 
+                </p>
+                <button class="beige">Terminvergabe</button>
+            </article>
+
+            <img class="right-img" src="../img/repair.jpg" alt="Werkstatt und Reparatur für Fahrräder">
+          </section>
+
+          <!--CONTENT BOX "LASTENRAD LEASING"-->
+          <section id="leasing" class="flex-container">
+            <img class="left-img" src="../img/cargo-bike.jpg" alt="Lastenrad-Leasing">
+            
+            <article class="flex-content beige-box">
+                <h4>Kaufen war gestern, jetzt ist leasen angesagt</h4>
+                <p>Das Angebot richtet sich sowohl an Handwerker, die ohne Parkplatzprobleme ihre Kundschaft bedienen wollen, als auch an alle anderen Mittelständler, für die ein Lastenrad das umweltfreundliche Transportmittel der Wahl ist. Wir werden gemeinsam eine gute Lösung für Sie finden. Fragen Sie einfach nach!
+                </p>
+                <button class="light">Terminvergabe</button>
+            </article>
+          </section>
+
+          <!--CONTENT BOX "KINDERRAD-ABO"-->
+          <section id="abo" class="flex-container">            
+            <article class="flex-content black-box">
+              <h4>Wenn das Fahrrad mitwächst</h4>
+              <p>Auf vielfachen Kundenwunsch bieten wir das Kinderrad-Abo an. So funktioniert es: Sie suchen für Ihr Kind bei uns ein passendes (Lauf)-Rad aus und bezahlen monatlich eine Abo-Gebühr dafür. Immer dann, wenn Tochter oder Sohn ein größeres Rad brauchen, tauschen wir es einfach aus. Regelmäßige Reparatur und Wartung der kleinen Flitzer sind im Preis inbegriffen. Lassen Sie sich über die Details beraten! Vereinbaren Sie gleich hier einen Beratungstermin oder rufen Sie uns an: 010/56789-10.
+              </p>
+                <button class="beige">Terminvergabe</button>
+            </article>
+
+            <img class="right-img" src="../img/kids-abo.jpg" alt="Kinderrad-Abo">
+          </section>
+
+            <!--KONTAKT BOX-->
+            <section id="contact" class="flex-container contact-box">
+              <img class="contact-img" src="../img/contact-openings.jpg" alt="Kontakt und Öffnungszeiten">
+
+              <article class="flex-content contact-box">
+              <h4>Fahrrad Rund OHG</h4>
+              <ul>
+                  <li>Fahrrad Rund OHG</li>
+                  <li>Meisterweg 4</li>
+                  <li>12345 Velostadt</li>
+                  <li>Tel: 010/567890</li>
+                  <li>Fax: 010/56789-12</li>
+              </ul>        
+              </article>
+
+              <article class="flex-content contact-box">
+              <h4>Öffnungszeiten</h4>
+              <ul>
+                  <li>Mo geschlossen</li>
+                  <li>Di 10–13 Uhr, 14–18 Uhr</li>
+                  <li>Mi 10–13 Uhr, 14–18 Uhr</li>
+                  <li>Do 10–13 Uhr, 14–20 Uhr</li>
+                  <li>Fr 10–13 Uhr, 14–18 Uhr</li>
+                  <li>Sa 10–14 Uhr</li>
+              </ul>        
+              </article>
+          </section>
+
+
+            <footer>
+                <ul class="footer-nav">
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#contact">Kontakt</a></li>
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="#">Datenschutz</a></li>
+                </ul> 
+            </footer>
+
+        </main>
+
+<!--
+            <span onclick="window.location.href='#top'"  class="top-scroll">
+                <div class="line4"></div>
+                <div class="line5"></div>
+            </span>-->
+
+        <script src="script.js"></script>
+    </body>
+    
+</html>
